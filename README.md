@@ -1,9 +1,11 @@
 1) 	Install singularity on HPC
 
 2)	Build afni.simg from docker hub: 
+	
 	singularity build afni.simg docker://afni/afni
 	
 	Afni seems to keep docker hub updated:
+	
 	singularity exec afni.simg afni --version 
 
 3)	If using slurm, use gPPI.sbatch to call gPPI.sbatch.sh
