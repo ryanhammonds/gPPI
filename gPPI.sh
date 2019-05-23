@@ -15,11 +15,11 @@
 ##  Each Participant Directory Needs:   ##
 ##  1) pb05.*.scale+orig (or +tlrc)     ##
 ##      (orig is recommended)           ##
-##   2) stimuli subdirectory            ##
-##   3) motion_demeaned.1D              ##
-##   4) motion_*_censor.1D              ##
-##   5) Anthing else used in basic GLM. ##
-##      Such as nuisance regressor,etc. ##
+##  2) stimuli subdirectory             ##
+##  3) motion_demeaned.1D               ##
+##  4) motion_*_censor.1D               ##
+##  5) Anthing else used in basic GLM.  ##
+##     Such as nuisance regressor,etc.  ##
 ##########################################
 
 ## SETUP ##
