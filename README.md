@@ -26,7 +26,7 @@ A generalized form of context-dependent psychophysiological interactions (gPPI):
 4)  Update gPPI.sh setup and 3dDeconvolve to reflect your design.
 
 4)  If using slurm, use gPPI.sbatch.sh to call gPPI.sh
-    These should be in parent directory (above subject's sub-directories).
+    These should be in parent directory (same level as subject's directories).
 
 4)  For other schedulers, modify gPPI.sbach.sh
 
