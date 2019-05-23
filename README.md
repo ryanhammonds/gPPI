@@ -7,7 +7,7 @@ Generates:
 a) Physiological Regressor
 b) Interaction Regressor (for each task x physiological interaction).
 
-Follows the generalized form descriped in McLaren et al., 2012:
+Follows the generalized form described in McLaren et al., 2012:
 A generalized form of context-dependent psychophysiological interactions (gPPI): a comparison to standard approaches.
 
 
