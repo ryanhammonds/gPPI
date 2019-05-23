@@ -8,7 +8,7 @@
 	
 	singularity exec afni.simg afni --version 
 
-3)	If using slurm, use gPPI.sbatch to call gPPI.sbatch.sh
+3)	If using slurm, use gPPI.sbatch.sh to call gPPI.sh
 	These should be in subject parent directory. 
 
 4) 	For other schedulers, modify gPPI.sbach.sh
