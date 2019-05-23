@@ -5,7 +5,7 @@ Appropropriate for block and event-related designs.
 
 Generates:
 a) Physiological Regressor
-b) Interaction Regressor (for each task x physiological interaction)
+b) Interaction Regressor (for each task x physiological interaction).
 
 Follows the generalized form descriped in McLaren et al., 2012:
 A generalized form of context-dependent psychophysiological interactions (gPPI): a comparison to standard approaches.
@@ -22,7 +22,7 @@ A generalized form of context-dependent psychophysiological interactions (gPPI):
 	singularity exec afni.simg afni --version 
 
 3)	If using slurm, use gPPI.sbatch.sh to call gPPI.sh
-	These should be in subject parent directory. 
+	These should be in parent directory (above subject's sub-directories). 
 
 4) 	For other schedulers, modify gPPI.sbach.sh
 
