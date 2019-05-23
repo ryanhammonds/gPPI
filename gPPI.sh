@@ -178,6 +178,9 @@ done
 x=0
 for roi in ${rois[@]}; do
 	(( x++ ))
+	if [[ ! -d /data/$subj/roi$x ]]; then
+		mkdir /data/$subj/roi$x
+	fi
 	3dDeconvolve \
 	-input /data/pb05."$subj".r*.scale+$space.HEAD \
 	-censor /data/motion_"$subj"_censor.1D[0] \
