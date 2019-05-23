@@ -22,7 +22,7 @@
 ##     Such as nuisance regressor,etc.  ##
 ##########################################
 
-## SETUP ##
+## SETUP #################################################################################
 subj=$1
 
 runs=(01 02) # two fMRI runs
@@ -34,14 +34,17 @@ subTR_inv=10 # 1/subTR (bash artithemtic doesn't like floats)
 TRnup=$(($TR*$subTR_inv)) # TR / subTR
 nt=$(($run_len*$subTR_inv)) # number of upsampled timepoints
 
-space=tlrc # Change this if processing in native space
+space=tlrc # Change to 'orig' if processing in native space
 rois=(roi1+$space roi2+$space roi3+$space roi4+$space) # seed masks in space defined above
 # These mask should be in a directory named "rois" in the subject parent directory
 
-# Name below based on what is in your stimuli directories
+# Name below based on your stimuli directories
 stims=(Neg Neu Pos) # Stimuli Valence (Emotion)
 tasks=(C I V) # Tasks (stroop): congru, incongru, viewing
 # 9 total trial types (NegC, NegI, NegC, etc)
+
+# Change 3dDeconvolve at end to reflect you standard GLM
+##########################################################################################
 
 echo 'Preparing regressors...'
 
