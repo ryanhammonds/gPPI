@@ -158,15 +158,15 @@ for roi in ${rois[@]}; do
   -stim_file 15 "/data/$subj/motion_demean.1D[4]" -stim_base 15 -stim_label 15 dL \
   -stim_file 16 "/data/$subj/motion_demean.1D[5]" -stim_base 16 -stim_label 16 dP \
   -stim_file 17 "/data/$subj/roi$roi.rall.reBOLD.down.1D" -stim_label 10 Seed_TS \
-  -stim_file 18 "/data/$subj/Inter/Inter.roi$roi.PosC.rall.PPI.1D" -stim_label 18 InterPosC \
-  -stim_file 19 "/data/$subj/Inter/Inter.roi$roi.PosI.rall.PPI.1D" -stim_label 19 InterPosI \
-  -stim_file 20 "/data/$subj/Inter/Inter.roi$roi.PosV.rall.PPI.1D" -stim_label 20 InterPosV \
-  -stim_file 21 "/data/$subj/Inter/Inter.roi$roi.NegC.rall.PPI.1D" -stim_label 21 InterNegC \
-  -stim_file 22 "/data/$subj/Inter/Inter.roi$roi.NegI.rall.PPI.1D" -stim_label 22 InterNegI \
-  -stim_file 23 "/data/$subj/Inter/Inter.roi$roi.NegV.rall.PPI.1D" -stim_label 23 InterNegV \
-  -stim_file 24 "/data/$subj/Inter/Inter.roi$roi.NeuC.rall.PPI.1D" -stim_label 24 InterNeuC \
-  -stim_file 25 "/data/$subj/Inter/Inter.roi$roi.NeuI.rall.PPI.1D" -stim_label 25 InterNeuI \
-  -stim_file 26 "/data/$subj/Inter/Inter.roi$roi.NeuV.rall.PPI.1D" -stim_label 26 InterNeuV \
+  -stim_file 18 "/data/$subj/Inter/Inter.roi$roi.PosC.rall.reBOLD.down.1D" -stim_label 18 InterPosC \
+  -stim_file 19 "/data/$subj/Inter/Inter.roi$roi.PosI.rall.reBOLD.down.1D" -stim_label 19 InterPosI \
+  -stim_file 20 "/data/$subj/Inter/Inter.roi$roi.PosV.rall.reBOLD.down.1D" -stim_label 20 InterPosV \
+  -stim_file 21 "/data/$subj/Inter/Inter.roi$roi.NegC.rall.reBOLD.down.1D" -stim_label 21 InterNegC \
+  -stim_file 22 "/data/$subj/Inter/Inter.roi$roi.NegI.rall.reBOLD.down.1D" -stim_label 22 InterNegI \
+  -stim_file 23 "/data/$subj/Inter/Inter.roi$roi.NegV.rall.reBOLD.down.1D" -stim_label 23 InterNegV \
+  -stim_file 24 "/data/$subj/Inter/Inter.roi$roi.NeuC.rall.reBOLD.down.1D" -stim_label 24 InterNeuC \
+  -stim_file 25 "/data/$subj/Inter/Inter.roi$roi.NeuI.rall.reBOLD.down.1D" -stim_label 25 InterNeuI \
+  -stim_file 26 "/data/$subj/Inter/Inter.roi$roi.NeuV.rall.reBOLD.down.1D" -stim_label 26 InterNeuV \
   -fout \
   -tout \
   -rout\
